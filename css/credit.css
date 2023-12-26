@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+
+.logo_credit{background:url(../images/cm-logo_old.png) no-repeat;
+	width:300px;
+	height:33px;
+	position: relative;
+top: 7px;
+	}
+	.navbar-right {
+margin-right: 10px !important;
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+max-height: 347px !important;
+}
+.white_color
+{
+	color:#fff !important;
+}
+.border_line_top
+{
+	border-top:3px solid #96ca50 !important;
+}
+.border_line
+{
+	border-bottom:3px solid #96ca50 !important;
+}
+.jumbotron1
+{
+	background:url(../images/creditcard_opoq.jpg) no-repeat;
+	width: 100%;
+    position: relative;
+    background-size: 100% 100%;
+	margin-bottom:0px;
+}
+.font_changes
+{
+	color:#FFF !important;
+	font-size:30px !important;
+	line-height: 37px;
+}
+.list1_inner
+{
+	color: #FFF !important;
+    font-size: 21px;
+    padding-left: 23px;
+}
+/*.btn-success
+{
+	background:#F90 !important;
+	font-size:30px !important;
+	border-color:#F90 !important;
+}*/
+.images_hover:hover
+{
+	background-color:#063;
+}
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+	background:none;
+	border:none;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    /*background:rgba(66, 139, 202, 0.75);*/
+	background:rgba(9, 65, 1, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+
+.greencard
+{
+	    
+		padding-top: 16px;
+    margin-top: -7px;
+    position: relative;
+	background:#dddddd;
+}
+
+
+.vertical .carousel-inner {
+  height: 100%;
+}
+
+.carousel.vertical .item {
+  -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+      -ms-transition: 0.6s ease-in-out top;
+       -o-transition: 0.6s ease-in-out top;
+          transition: 0.6s ease-in-out top;
+}
+
+.carousel.vertical .active {
+  top: 0;
+}
+
+.carousel.vertical .next {
+  top: 400px;
+}
+
+.carousel.vertical .prev {
+  top: -400px;
+}
+
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
+}
+
+.carousel.vertical .active.left {
+  top: -400px;
+}
+
+.carousel.vertical .active.right {
+  top: 400px;
+}
+
+.carousel.vertical .item {
+    left: 0;
+}
+
+.grey_background
+{
+	background:url(../images/grey_background.jpg) no-repeat center top;
+}
+.chageu_padding
+{
+
+	color:#000;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:18px;
+}
+.bacground_wheel
+{
+	background: #E9EAEE url(../images/cricle.png) no-repeat right top;
+}
+.bacground_wheel1
+{
+	background:url(../images/newback.jpg) no-repeat;
+width: 100%;
+    position: relative;
+    background-size: 100% 100%;
+	color:white;
+
+}
+.wheel_content1
+{
+    font-size: 30px;
+    color: #0B0B0B;
+    line-height: 52px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0;
+
+}
+.grey_small
+{
+  /*  margin: 3% 1% 3% 1%;*/
+    min-height: 500px;
+    border: 1px solid #CBCCD0;
+    box-shadow: 0 1px 10px 1px rgba(216, 217, 221, 1);
+    position: relative;
+}
+.listing_content_start
+{
+	padding-left: 15px;
+    line-height: 26px;
+}
+.align_content_center
+{
+	text-align:center;
+	padding-left: 90px;
+	}
+.idvedio{min-width:100%;min-height:100%;width:auto;height:auto;}
+
+.terms_conditions{color:white; font-weight:bold; font-size:14px; font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;padding-top:10px;}
+.list_condition{color:white; font-size:12px;font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+.terms_condition_background
+	{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+background: #45484d; /* Old browsers */
+background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+.copy_ytext
+{color:white; text-align:center;  font-size:12px;}
+.personalloan_text, .technological_text, .service_text{color:white; font-weight:bold; background:/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bfd255+0,8eb92a+50,72aa00+51,9ecb2d+100;Green+Gloss */
+background: #bfd255; /* Old browsers */
+background: -moz-linear-gradient(top,  #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 ); /* IE6-9 */
+width: 148px;
+padding: 12px;
+border-radius: 5px;
+position: relative;
+top: 10px;}
+.personal_check
+{color:white; font-weight:bold; font-size:16px;position: relative;
+text-decoration:underline;}
+.personal_content{color:white;ont-size:14px;}
+.check_eligibility{width: 120px;
+padding: 3px;
+border-radius: 5px;font-weight:bold;}
+.Apply{width: 102px;
+padding: 3px;
+border-radius: 5px;font-weight:bold;}
+.Features
+{font-weight:bold;color:#96ca50;font-size:16px;border-bottom:1px dashed #96ca50; }
+.personal_top_line{border-top:1px solid #96ca50;}
+.personal_features{ color:white;font-size:14px; text-align:justify;}
+.Customer_testimonial{font-weight:bold;color:#96ca50;font-size:16px;border-bottom:1px dashed #96ca50;}
+.Customer_text{color:white;font-size:14px; text-align:justify;}
+.Benefits{font-weight:bold;color:#96ca50;font-size:16px;border-bottom:1px dashed #96ca50; }
+.Status_loan{color:#fff;font-weight:bold;}
+.personal_doorstep{color:#FFF;font-size:14px;}
+.apply_text{color:white;font-size:10px;}
